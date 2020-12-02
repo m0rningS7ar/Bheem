@@ -1,7 +1,7 @@
 #!/bin/sh
 
-#sudo apt-get install golang;
-#sudo apt-get install python3;
+sudo apt-get install golang;
+sudo apt-get install python3;
 sudo apt-get install python3-pip;
 sudo apt-get install ruby;
 sudo apt-get install screen;
@@ -72,5 +72,5 @@ alias asnip=~/go/bin/asnip
 " >> ~/.bash_profile
 
 source ~/.bash_profile;
-#export  PATH=$PATH:~/go/bin; 
+export  PATH=$PATH:~/go/bin; 
 
